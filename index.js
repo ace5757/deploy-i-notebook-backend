@@ -9,7 +9,7 @@ const port = process.env.PORT || 3003
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://i-notebook-frontend-nine.vercel.app"
+    "*"
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
